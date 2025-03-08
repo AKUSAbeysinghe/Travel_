@@ -1,6 +1,6 @@
 
 
-package travel.management.system;
+package travel.system;
 
 
 import java.awt.BorderLayout;
