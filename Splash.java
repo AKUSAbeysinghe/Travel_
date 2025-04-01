@@ -1,61 +1,6 @@
-////
-////package travel;
-////
-////import static java.lang.ClassLoader.getSystemResource;
-////import javax.swing.*;
-////
-////
-////public class Splash extends JFrame {
-////
-////    Splash(){
-////    
-////       setSize(1200, 600);
-////       setLocation(200, 100);
-////       setVisible(true);
-////       
-////       ImageIcon il = new ImageIcon(ClassLoader, getSystemResource("icons/splash.jpg"));
-////    }
-////
-////public static void main(String[] args){
-////
-////    new Splash();
-////
-////}
-////    
-////}
-//
-//
-//
-//package travel;
-//
-//import javax.swing.*;
-//import java.net.URL;
-//
-//public class Splash extends JFrame {
-//
-//    Splash() {
-//        setSize(1200, 600);
-//        setLocation(200, 100);
-//        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-//
-//        // Load the image resource correctly
-//        URL imageUrl = getClass().getClassLoader().getResource("icons/splash.jpg");
-//        if (imageUrl != null) {
-//            ImageIcon i1 = new ImageIcon(imageUrl);
-//            JLabel label = new JLabel(i1);
-//            add(label);
-//        } else {
-//            System.out.println("Image not found!");
-//        }
-//
-//        JLabel image = new JLabel(i1);
-//        setVisible(true);
-//    }
-//
-//    public static void main(String[] args) {
-//        new Splash();
-//    }
-//}
+
+
+
 
 
 package travel;
