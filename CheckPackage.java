@@ -1,5 +1,5 @@
 
-package travel.management.system;
+package travel;
 
 import java.sql.*;
 import java.awt.*;
