@@ -1,6 +1,6 @@
 package Travel;
 
-public class DashBord extends JFrame{
+public class DashBoard extends JFrame{
 
 DashBoard(){}
 
