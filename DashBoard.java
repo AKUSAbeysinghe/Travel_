@@ -2,7 +2,8 @@ package Travel;
 
 public class DashBoard extends JFrame{
 
-DashBoard(){}
-
-  
+DashBoard(){
+  SetBounds(100, 100, 1600, 1000);
+  SetVisible(true);
+}
 }
